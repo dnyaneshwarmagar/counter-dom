@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  background-color: black;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin:5%;
+}
+.count_div > p{
+    text-decoration:underline ;
+    text-underline-offset: 10px;
+   
+}
+.btn_div{
+    display: flex;
+    gap:20px
+}
+.decrement_btn,.increment_btn{
+    background-color: white;
+    color:black;
+    height: 30px;
+    padding: 0px 30px
+}
+.clear_btn{
+    height: 30px;
+    padding: 0px 30px;
+    border:1px solid white;
+}
+.error_div > p{
+    color:red;
+    /* display:  none; */
+}
+.error_div{
+    display: none;
+}
